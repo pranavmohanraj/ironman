@@ -148,5 +148,73 @@ nav ul li a:hover {
 .gallery-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 
+    gap: 30px;
+}
+
+.gallery-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.gallery-item h3 {
+    margin-top: 10px;
+    color: #ffcc00;
+}
+
+.gallery-item p {
+    color: #e0e0e0;
+}
+
+/* Technology Section */
+.technology {
+    padding: 60px 30px; /* Adjusted padding */
+    background-color: #1c1c1c;
+}
+
+.technology h2 {
+    font-size: 2.5rem;
+    color: #ffcc00;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.tech-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+.tech-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.tech-item h3 {
+    margin-top: 10px;
+    color: #ffcc00;
+}
+
+.tech-item p {
+    color: #e0e0e0;
+}
+
+/* Footer Section */
+footer {
+    padding: 20px 30px;
+    text-align: center;
+    background-color: #e50914;
+    color: white;
+}
+
+footer a {
+    color: #ffcc00;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
