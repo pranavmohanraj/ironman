@@ -1,0 +1,99 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1c1c1c;
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #e50914;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    transition: background 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #ffffff30;
+    border-radius: 5px;
+}
+
+.hero {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.hero img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.hero h2 {
+    font-size: 1.8rem;
+    margin: 15px 0;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.bio {
+    padding: 20px;
+    background-color: #333333;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.bio h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.bio p {
+    font-size: 1.1rem;
+}
+
+/* Mobile Design */
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .hero h2 {
+        font-size: 1.5rem;
+    }
+
+    .bio {
+        margin: 10px;
+    }
+}
