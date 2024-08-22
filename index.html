@@ -3,37 +3,109 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Iron Man</title>
-    <link rel="stylesheet" href="./styles/style.css">
+    <title>Iron Man - Tony Stark</title>
+    <link rel="stylesheet" href="styles/style.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="./Favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="./Favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="./Favicon/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
 </head>
 <body>
+    <!-- Header Section -->
     <header>
-        <h1>Iron Man</h1>
+        <div class="logo">
+            <img src="images/logo.jpeg" alt="Iron Man Logo">
+        </div>
         <nav>
             <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Biography</a></li>
                 <li><a href="#">Suit Gallery</a></li>
+                <li><a href="#">Tech</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
         </nav>
     </header>
 
-    <main>
-        <section class="hero">
-            <img src="images/ironman image.jpg" alt="Iron Man">
-            <h2>The Invincible Iron Man</h2>
-            <p>Tony Stark, the genius billionaire playboy philanthropist, dons the suit to protect the world.</p>
-        </section>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>The Invincible Iron Man</h1>
+            <p>Tony Stark, the genius billionaire playboy philanthropist, wears the iconic Iron Man suit to protect the world from formidable foes. Explore his journey, his suits, and the technology that powers him.</p>
+            <a href="#biography" class="cta-button">Explore More</a>
+        </div>
+        <img src="images/iron man in aciton.jpg"Iron Man in action" class="hero-image">
+    </section>
 
-        <section class="bio">
-            <h3>Biography</h3>
-            <p>Iron Man is the alter ego of Tony Stark, an industrialist and inventor who creates a powered exoskeleton to save his life and later uses it to protect the world. His suit is equipped with advanced technology, weapons, and flight capabilities, making him one of the most powerful heroes in the Marvel Universe.</p>
-        </section>
-    </main>
+    <!-- Biography Section -->
+    <section id="biography" class="biography">
+        <h2>Biography</h2>
+        <div class="bio-content">
+            <img src="images/iron-man-tony-stark.jpg" alt="Tony Stark" class="bio-image">
+            <div class="bio-text">
+                <p>Tony Stark, born to Howard and Maria Stark, was a child prodigy and engineering genius. Following in his father's footsteps, Tony became the CEO of Stark Industries, where he revolutionized technology and weapons development. After being captured and forced to create a weapon of mass destruction, Tony instead built the first Iron Man suit and used it to escape. This marked the beginning of his transformation into Iron Man, a hero dedicated to using his technology for good.</p>
+                <p>With a sharp intellect and unmatched resources, Stark has continuously upgraded his suits, making him one of the most formidable superheroes in the world. His journey is one of redemption, responsibility, and the relentless pursuit of innovation.</p>
+            </div>
+        </div>
+    </section>
 
+    <!-- Suit Gallery Section -->
+    <section id="gallery" class="suit-gallery">
+        <h2>Suit Gallery</h2>
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <img src="images/mark 1.webp" alt="Mark 1 Suit">
+                <h3>Mark 1</h3>
+                <p>The original suit built by Tony Stark to escape captivity. Heavy, clunky, but powerful.</p>
+            </div>
+            <div class="gallery-item">
+                <img src="" alt="Mark 42 Suit">
+                <h3>Mark 42</h3>
+                <p>A modular suit with improved flexibility and remote control capabilities.</p>
+            </div>
+            <div class="gallery-item">
+                <img src="images/mark-85.jpg" alt="Mark 85 Suit">
+                <h3>Mark 85</h3>
+                <p>The most advanced suit, featuring nano-technology, used in the final battle against Thanos.</p>
+            </div>
+            <div class="gallery-item">
+                <img src="images/hulkbuster.jpg" alt="Hulkbuster Suit">
+                <h3>Hulkbuster</h3>
+                <p>A suit designed to withstand the might of the Hulk. Massive, powerful, and nearly indestructible.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technology Section -->
+    <section id="tech" class="technology">
+        <h2>Stark Technology</h2>
+        <div class="tech-content">
+            <div class="tech-item">
+                <img src="images/logo.jpeg" alt="Arc Reactor">
+                <h3>Arc Reactor</h3>
+                <p>The heart of Iron Man's suit, providing an almost unlimited power source, keeping Tony alive and his suits operational.</p>
+            </div>
+            <div class="tech-item">
+                <img src="images/jarvis.jpg" alt="J.A.R.V.I.S. AI">
+                <h3>J.A.R.V.I.S.</h3>
+                <p>The AI that assists Tony Stark, managing his suits and providing critical tactical information.</p>
+            </div>
+            <div class="tech-item">
+                <img src="images/nano-tech.jpg" alt="Nano Technology">
+                <h3>Nano-Tech</h3>
+                <p>The latest innovation by Tony Stark, allowing suits to be constructed at a molecular level, offering unparalleled adaptability and strength.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
     <footer>
-        <p>&copy; 2024 Iron Man Fan Page</p>
+        <p>&copy; 2024 Iron Man Fan Page | Designed by Stark Industries | Follow us on <a href="#">Twitter</a>, <a href="#">Instagram</a>, <a href="#">Facebook</a></p>
     </footer>
 </body>
 </html>
